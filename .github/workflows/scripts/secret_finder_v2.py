@@ -10,7 +10,7 @@ def coincide_contraseña():
     import sys
     ruta=sys.argv[1]
     palabra_clave=sys.argv[2]
-    resultado=subprocess.run(['egrep','-R','palabra_clave','ruta'], capture_outpo=true)
+    resultado=subprocess.run(['egrep','-R','palabra_clave','ruta'], capture_outpot=true)
     if resultado.return == 0
         Print("Se ha encontrado una coincidencia")
         ( sys.exit(150) )
